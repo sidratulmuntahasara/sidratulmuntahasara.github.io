@@ -15,3 +15,16 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+//Clip
+let btn = document.querySelector('.play-btn');
+let clip = document.querySelector('.clip');
+let close = document.querySelector('.close');
+btn.onclick = function(){
+    btn.classList.add('active')
+    clip.classList.add('active')
+}
+close.onclick = function(){
+    btn.classList.remove('active')
+    clip.classList.remove('active')
+}
