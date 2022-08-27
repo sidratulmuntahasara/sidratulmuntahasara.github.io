@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-sep{
+    height: 5rem;
+}
+
+.separator{
+    height: 1000px;
+    width: auto;
+}
+
+body{
+	background-color: #e3edf7;
+}
+
+h1{
+	color: #555;
+}
+
+h2, h3, h4, h5, h6{
+	color: rgb(102, 102, 102);
+}
+
+
+/* Header */
+
+
+.earth{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-image: url(https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2005/05/envisat_mosaic_may_-_november_2004/9695811-3-eng-GB/Envisat_mosaic_May_-_November_2004_pillars.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 30s linear alternate infinite;
+}
+
+@keyframes spin{
+    100%{background-position: 100%;}
+}
