@@ -476,3 +476,20 @@ body{
 @keyframes spin{
     100%{background-position: 100%;}
 }
+
+
+/*Body*/
+
+.b-1{
+  height: 70vh;
+  width: 100%;
+  background-color: whitesmoke;
+  color: black; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bh-1{
+
+}
