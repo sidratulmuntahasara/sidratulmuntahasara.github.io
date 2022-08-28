@@ -920,7 +920,7 @@ span.r-icon:hover {
 
 /*body-3*/
 .desc-2{
-  height: 80vh;
+  height: 40rem;
   width: 100%;
   background-color: rgb(225, 214, 205);
   text-align: center;
@@ -937,7 +937,7 @@ span.r-icon:hover {
 
 .desc-2 .b{
   display: flex;
-  height: 60vh;
+  height: 28rem;
   margin-top: 2rem;
   border: 2px solid red;
   width: 100%;
@@ -947,14 +947,35 @@ span.r-icon:hover {
 
 .desc-2 .b .b1{
   border: 2px solid red;
-  height: 60vh;
+  height: 28rem;
   width: 40%;
   margin-right: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .desc-2 .b .b2{
   border: 2px solid red;
-  height: 60vh;
+  height: 28rem;
   width: 40%;
   right: 0;
+}
+
+.b1-h3{
+  font-weight: lighter;
+  color: #1f2029;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  letter-spacing: 1.5px;
+}
+
+.desc-3{
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(225, 214, 205);
+  text-align: center;
+  /* background-image: url(../imgs/line-content-group-pattern.png);
+  background-size: cover; */
 }
