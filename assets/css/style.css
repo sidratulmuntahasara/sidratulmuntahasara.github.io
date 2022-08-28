@@ -734,7 +734,6 @@ span.r-icon:hover {
 }
 
 .desc-1{
-  border: 2px solid red;
   width: 100%;
   height: 60vh;
   display: flex;
@@ -779,6 +778,7 @@ span.r-icon:hover {
   cursor: pointer;
   background-color: rgb(23, 23, 23);
   color: rgb(255, 191, 191);
+  transition: 0.2s ease-in-out;
 }
 
 
@@ -818,30 +818,96 @@ span.r-icon:hover {
 .pane-3{
   font-weight: lighter;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
+  font-size: 14px;
   padding-left: 15px;
   padding-top: 22px;
+  padding-right: 1rem;
+}
+
+.pane-4{
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pane-5{
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pane-6{
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 1rem;
 }
 
 .panel .pane-hr{
   padding-top: 8px;
-  border-bottom: 1px solid rgba(245, 245, 245, 0.516);
+  border-bottom: 1px solid rgba(245, 245, 245, 0.324);
   border-top: 0;
   border-left: 0;
   border-right: 0;
 }
 
-.panel a {
-  padding: 8px 8px 8px 32px;
+.pane-btn{
+  width: 10rem;
+  font-weight: bold;
+  margin-top: 2px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: rgb(229, 229, 229);
+  color: rgb(56, 56, 56);
+  font-size: 15px;
+  margin-left: 3rem;
+  
+} 
+
+.pane-btn:hover{
+  cursor: pointer;
+  background-color: salmon;
+  color: rgb(255, 255, 255);
+  transition: 0.2s ease-in-out;
+}
+
+.prob {
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.prob:hover {
+  color: #cecece;
+  background-color: #41434c56;
+  cursor: pointer;
+}
+
+.panel a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .panel a:hover {
-  color: #f1f1f1;
+  cursor: pointer;
 }
 
 .panel .closebtn {
@@ -849,4 +915,46 @@ span.r-icon:hover {
   top: 0;
   right: 25px;
   font-size: 36px;
+}
+
+
+/*body-3*/
+.desc-2{
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(225, 214, 205);
+  text-align: center;
+  /* background-image: url(../imgs/line-content-group-pattern.png);
+  background-size: cover; */
+}
+
+.desc-2 .bh-4{
+  padding-top: 5rem;
+  color: #383943;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.desc-2 .b{
+  display: flex;
+  height: 60vh;
+  margin-top: 2rem;
+  border: 2px solid red;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc-2 .b .b1{
+  border: 2px solid red;
+  height: 60vh;
+  width: 40%;
+  margin-right: 5rem;
+}
+
+.desc-2 .b .b2{
+  border: 2px solid red;
+  height: 60vh;
+  width: 40%;
+  right: 0;
 }
