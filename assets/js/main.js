@@ -21,6 +21,7 @@ let btn = document.querySelector('.play-btn');
 let clip = document.querySelector('.clip');
 let close = document.querySelector('.close');
 let video = document.querySelector('video');
+let bg = document.querySelector('.bg');
 btn.onclick = function(){
     btn.classList.add('active');
     clip.classList.add('active');
@@ -33,6 +34,15 @@ close.onclick = function(){
     video.pause();
 }
 video.onended = function(){
-  btn.classList.remove('active')
-    clip.classList.remove('active')
+    btn.classList.remove('active');
+    clip.classList.remove('active');
+}
+
+//Info Panel
+function openInfo() {
+  document.getElementById("report").style.width = "250px";
+}
+
+function closeInfo() {
+  document.getElementById("report").style.width = "0";
 }
