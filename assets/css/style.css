@@ -796,6 +796,41 @@ span.r-icon:hover {
   padding-top: 60px;
 }
 
+.panel .pane-1{
+  font-weight: lighter;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a8a8a8;
+  padding-left: 15px;
+}
+
+.panel .pane-2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding-top: 1rem;
+  padding-left: 15px;
+}
+
+.cont{
+  display: flex;
+}
+
+.pane-3{
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  padding-left: 15px;
+  padding-top: 22px;
+}
+
+.panel .pane-hr{
+  padding-top: 8px;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.516);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
 .panel a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;

@@ -40,7 +40,7 @@ video.onended = function(){
 
 //Info Panel
 function openInfo() {
-  document.getElementById("report").style.width = "250px";
+  document.getElementById("report").style.width = "350px";
 }
 
 function closeInfo() {
