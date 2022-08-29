@@ -87,15 +87,15 @@ document.body.addEventListener('mousemove',function(e){
   if (!active) return;
   // Their mouse is here...
   let x = e.pageX;
-  // but we want it relative to our wrapper
-  x -= document.querySelector('.wrapper').getBoundingClientRect().left;
+  // but we want it relative to our slider
+  x -= document.querySelector('.slider').getBoundingClientRect().left;
   // Okay let's change our state
   scrollIt(x);
 });
 // Let's use this function
 function scrollIt(x){
   // Calculate our transform
-  let transform = Math.max(0,(Math.min(x,document.querySelector('.wrapper').offsetWidth)));
+  let transform = Math.max(0,(Math.min(x,document.querySelector('.slider').offsetWidth)));
   // we show all our bottom image but how much of our middle and top,
   // that'll depend on what we're dragging
   // if we're dragging the middle slider
@@ -154,10 +154,10 @@ document.body.addEventListener('touchcancel',function(){
     active = false;
     document.querySelector('.scroller-top').classList.remove('scrolling');
 });
-document.querySelector('.wrapper').addEventListener('touchmove',function(e){
+document.querySelector('.slider').addEventListener('touchmove',function(e){
     if (!active) return;
     e.preventDefault();
     let x = e.touches[0].pageX;
-    x -= document.querySelector('.wrapper').getBoundingClientRect().left;
+    x -= document.querySelector('.slider').getBoundingClientRect().left;
     scrollIt(x);
 });
