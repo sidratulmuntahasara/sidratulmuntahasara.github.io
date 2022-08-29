@@ -122,7 +122,7 @@ function scrollIt(x){
 // Let's set our opening state based off the width, 
 // we want to show a bit of both images so the user can see what's going on
 active = "middle";
-scrollIt(460);
+scrollIt(400);
 active = "top";
 scrollIt(230);
 active = false;
@@ -160,4 +160,38 @@ document.querySelector('.slider').addEventListener('touchmove',function(e){
     let x = e.touches[0].pageX;
     x -= document.querySelector('.slider').getBoundingClientRect().left;
     scrollIt(x);
+});
+
+
+
+// Target
+
+$(".step").click( function() {
+  $(this).addClass("active").prevAll().addClass("active");
+  $(this).nextAll().removeClass("active");
+});
+
+$(".step01").click( function() {
+  $("#line-progress").css("width", "3%");
+  $(".discovery").addClass("active").siblings().removeClass("active");
+});
+
+$(".step02").click( function() {
+  $("#line-progress").css("width", "25%");
+  $(".strategy").addClass("active").siblings().removeClass("active");
+});
+
+$(".step03").click( function() {
+  $("#line-progress").css("width", "50%");
+  $(".creative").addClass("active").siblings().removeClass("active");
+});
+
+$(".step04").click( function() {
+  $("#line-progress").css("width", "75%");
+  $(".production").addClass("active").siblings().removeClass("active");
+});
+
+$(".step05").click( function() {
+  $("#line-progress").css("width", "100%");
+  $(".analysis").addClass("active").siblings().removeClass("active");
 });
