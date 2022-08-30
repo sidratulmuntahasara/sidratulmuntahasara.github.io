@@ -920,10 +920,11 @@ span.r-icon:hover {
 
 /*body-3*/
 .desc-2{
-  height: 40rem;
+  height: auto;
   width: 100%;
   background-color: rgb(225, 214, 205);
   text-align: center;
+  padding-bottom: 5rem;
   /* background-image: url(../imgs/line-content-group-pattern.png);
   background-size: cover; */
 }
@@ -1057,12 +1058,12 @@ span.r-icon:hover {
 
 
 /*target*/
-.process-wrapper {
+.target-wrapper {
   margin:auto;
-  max-width:1080px;
+  max-width:2000px;
 }
 
-#progress-bar-container {
+#target-bar-container {
   position:relative;
   width:90%;
   margin:auto;
@@ -1070,40 +1071,39 @@ span.r-icon:hover {
   margin-top:65px;
 }
 
-#progress-bar-container ul {
+#target-bar-container ul {
   padding:0;
   margin:0;
-  padding-top:15px;
-  z-index:9999;
+  padding-top:25px;
+  z-index:10;
   position:absolute;
   width:100%;
-  margin-top:-40px
+  margin-top:-40px;
 }
 
-#progress-bar-container li:before {
+#target-bar-container li:before {
   content:" ";
   display:block;
   margin:auto;
-  width:30px;
-  height:30px;
+  width:20px;
+  height:20px;
   border-radius:50%;
-  border:solid 2px #aaa;
+  border:solid 2px grey;
   transition:all ease 0.3s;
-   
 }
 
-#progress-bar-container li.active:before, #progress-bar-container li:hover:before {
+#target-bar-container li.active:before, #target-bar-container li:hover:before {
   border:solid 2px #fff;
           
-  background: linear-gradient(to right, #E91E63 0%,#fff 100%); 
+  background: linear-gradient(-15deg, #E91E63 0%,rgb(255, 165, 155) 100%); 
 }
 
-#progress-bar-container li {
+#target-bar-container li {
   list-style:none;
   float:left;
-  width:20%;
+  width:10%;
   text-align:center;
-  color:#aaa;
+  color:grey;
   text-transform:uppercase;
   font-size:11px;
   cursor:pointer;
@@ -1114,18 +1114,18 @@ span.r-icon:hover {
   position:relative;
 }
 
-#progress-bar-container li .step-inner {
+#target-bar-container li .step-inner {
   position:absolute;
   width:100%;
   bottom:0;
   font-size: 14px;
 }
 
-#progress-bar-container li.active, #progress-bar-container li:hover {
+#target-bar-container li.active, #target-bar-container li:hover {
   color:#444;
 }
 
-#progress-bar-container li:after {
+#target-bar-container li:after {
   content:" ";
   display:block;
   width:6px;
@@ -1140,65 +1140,64 @@ span.r-icon:hover {
    
 }
 
-#progress-bar-container li:hover:after {
+#target-bar-container li:hover:after {
   background:#555;
 }
 
-#progress-bar-container li.active:after {
-  background:#207893;
+#target-bar-container li.active:after {
+  background:salmon;
 }
 
-#progress-bar-container #line {
-  width:80%;
+#target-bar-container #line {
+  width:100%;
   margin:auto;
-  background: #eee;
+  background: rgb(179, 179, 179);
   height:6px;
   position:absolute;
-  left:10%;
   top:57px;
   z-index:1;
   border-radius:50px;
   transition:all ease 0.9s;
 }
 
-#progress-bar-container #line-progress {
+#target-bar-container #line-progress {
   content:" ";
   width:3%;
   height:100%;
   background: #207893;	 
-  background: linear-gradient(to right, #207893 0%,#2ea3b7 100%); 
+  background: linear-gradient(to right, salmon 0%,#E91E63 75%, #dc1ee9 100%); 
   position:absolute;
   z-index:2;
   border-radius:50px;
   transition:all ease 0.9s;
 }
 
-#progress-content-section {
+#target-content-section {
   width:90%;
   margin: auto;
   background: #f3f3f3;
   border-radius: 4px;
 }
 
-#progress-content-section .section-content {
+#target-content-section .section-content {
   padding:30px 40px;
   text-align:center;
 }
 
-#progress-content-section .section-content h2 {
+#target-content-section .section-content h2 {
   font-size:17px;
   text-transform:uppercase;
   color:#333;
   letter-spacing:1px;
 }
 
-#progress-content-section .section-content p {
+#target-content-section .section-content p {
   font-size:16px;
   line-height:1.8em;
   color:#777;
 }
 
-#progress-content-section .section-content {
+#target-content-section .section-content {
   display:none;
   animation: FadeInUp 700ms ease 1;
   animation-fill-mode:forwards;
@@ -1206,7 +1205,7 @@ span.r-icon:hover {
   opacity:0;
 }
 
-#progress-content-section .section-content.active {
+#target-content-section .section-content.active {
   display:block;
 }
 

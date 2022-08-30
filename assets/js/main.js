@@ -172,26 +172,51 @@ $(".step").click( function() {
 });
 
 $(".step01").click( function() {
-  $("#line-progress").css("width", "3%");
-  $(".discovery").addClass("active").siblings().removeClass("active");
+  $("#line-progress").css("width", "5%");
+  $(".11-1").addClass("active").siblings().removeClass("active");
 });
 
 $(".step02").click( function() {
-  $("#line-progress").css("width", "25%");
-  $(".strategy").addClass("active").siblings().removeClass("active");
+  $("#line-progress").css("width", "15%");
+  $(".11-2").addClass("active").siblings().removeClass("active");
 });
 
 $(".step03").click( function() {
-  $("#line-progress").css("width", "50%");
-  $(".creative").addClass("active").siblings().removeClass("active");
+  $("#line-progress").css("width", "25%");
+  $(".11-3").addClass("active").siblings().removeClass("active");
 });
 
 $(".step04").click( function() {
-  $("#line-progress").css("width", "75%");
-  $(".production").addClass("active").siblings().removeClass("active");
+  $("#line-progress").css("width", "35%");
+  $(".11-4").addClass("active").siblings().removeClass("active");
 });
 
 $(".step05").click( function() {
+  $("#line-progress").css("width", "45%");
+  $(".11-5").addClass("active").siblings().removeClass("active");
+});
+
+$(".step06").click( function() {
+  $("#line-progress").css("width", "55%");
+  $(".11-6").addClass("active").siblings().removeClass("active");
+});
+
+$(".step07").click( function() {
+  $("#line-progress").css("width", "65%");
+  $(".11-7").addClass("active").siblings().removeClass("active");
+});
+
+$(".stepA").click( function() {
+  $("#line-progress").css("width", "75%");
+  $(".11-A").addClass("active").siblings().removeClass("active");
+});
+
+$(".stepB").click( function() {
+  $("#line-progress").css("width", "85%");
+  $(".11-B").addClass("active").siblings().removeClass("active");
+});
+
+$(".stepC").click( function() {
   $("#line-progress").css("width", "100%");
-  $(".analysis").addClass("active").siblings().removeClass("active");
+  $(".11-C").addClass("active").siblings().removeClass("active");
 });
