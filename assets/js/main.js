@@ -220,3 +220,81 @@ $(".stepC").click( function() {
   $("#line-progress").css("width", "100%");
   $(".11-C").addClass("active").siblings().removeClass("active");
 });
+
+
+
+//Chatbot
+function IsEnter()
+{
+	var TextBox_val = document.getElementById("InputBox").value; // Get all the data from the input box.
+
+	// If enter key is pressed then only respond.
+	if (TextBox_val != "")
+	{
+		if (event.keyCode == 13)
+			main();
+	}
+}
+
+function main()
+{
+	// the main logic will be coded here.
+	var TextBox_val = document.getElementById("InputBox").value; // Get all the data from the input box.
+	var BotText_val = document.getElementById("BotText"); // Get all the data from the Bot text.
+
+	var FormatInput = TextBox_val.toLowerCase().trim(); // convert our given input to lowercase.
+	// For example "Apple" -> "apple".
+
+	// Let's code the Logic for chatting...
+	// and like this you can add several more features to it make it really advance.
+	// As i said, i will be uploading it's source code it github so just check the link in description!
+	if (FormatInput.includes("hi") || FormatInput.includes("hello"))
+		BotText_val.innerHTML = "Hello there!";
+
+	else if (FormatInput.includes("how are you")) 
+		BotText_val.innerHTML = "I'm fine! Thanks for asking!";
+
+	// Open websites!
+	else if (FormatInput.includes("open google"))
+	{
+		// "https://" is important!
+		BotText_val.innerHTML = "Opening Google";
+		window.open("https://www.google.com", "_blank");
+	}
+
+	else if (FormatInput.includes("open youtube"))
+	{
+		// "https://" is important!
+		BotText_val.innerHTML = "Opening YouTube";
+		window.open("https://www.youtube.com", "_blank");
+	}
+
+	else if (FormatInput.includes("what is sustainability"))
+	{
+		// "https://" is important!
+		BotText_val.innerHTML = "Check this out";
+		window.open("https://en.wikipedia.org/wiki/Sustainability", "_blank");
+	}
+
+  else if (FormatInput.includes("what is sustainable development"))
+	{
+		// "https://" is important!
+		BotText_val.innerHTML = "Development that meets the needs of the present, without compromising the ability of future generations to meet their own needs";
+	}
+
+	else if (FormatInput.includes("ask web"))
+	{
+		// "https://" is important!
+		BotText_val.innerHTML = "Opening Web-search for you!";
+		window.open("https://www.google.com", "_blank");
+	}
+
+  else if (FormatInput.includes("help"))
+	{
+		// "https://" is important!
+		BotText_val.innerHTML = "For now only a few commands work. Check info below. Further upgrades will be made soon!";
+	}
+
+	else
+		BotText_val.innerHTML = "Sorry, I can't understand you 😔 ... I am still under-development";
+}
