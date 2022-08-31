@@ -357,9 +357,7 @@ body{
     color: white;
     text-align: center;
     -webkit-text-stroke: 3px white;
-    text-stroke: 2px white;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.342);
-    text-fill-color: rgba(255, 255, 255, 0.466);
     color: rgba(255, 255, 255, 0.466);
   }
 
