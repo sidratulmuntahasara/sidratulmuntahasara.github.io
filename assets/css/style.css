@@ -1375,10 +1375,22 @@ span.r-icon:hover {
 .sec .head{
   border-left: 3px yellow solid;
   padding-left: 1rem;
+  padding-bottom: 2rem;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sec .desc{
+  display: none;
+}
+
+.sec:hover .desc{
+  display: block;
 }
 
 .sec .overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.53);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1394,7 +1406,8 @@ span.r-icon:hover {
   justify-content: center;
   align-items: center;
   z-index: 1;
-  border: 2px solid red;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
 .solutions:hover .s-title{
@@ -1415,14 +1428,19 @@ span.r-icon:hover {
 }
 
 #s1 {
-  background-image: url(https://images.unsplash.com/photo-1522205987242-8e22924ab42a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0f679eb8f15705d46ea90008f39642b&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://www.researchgate.net/profile/Abhishek_Dubey7/publication/323470861/figure/fig1/AS:599207043936257@1519873500979/Congestion-analysis-of-Google-Maps-The-congestion-level-of-a-route-is-shown-when-1000.png);
 }
 
 
 #s2 {
-  background-image: url(https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fe6b92f88f55824e64a1bae15f5bf52a&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://car-images.bauersecure.com/wp-images/3802/toyota_electric_090.jpg);
 }
 
 #s3 {
-  background-image: url(https://images.unsplash.com/photo-1517799094725-e3453440724e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=353f3663a9fae75773d2942aeb37c2c8&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://fastcdn.impakter.com/wp-content/uploads/2018/12/chuttersnap-685131-unsplash-e1544460092168.jpg?strip=all&lossy=1&quality=92&ssl=1);
+}
+
+#s4 {
+  background-image: url(https://www.technogym.com/wpress/wp-content/uploads/2019/06/Small-Giardino-Verticale.jpg);
+  background-position: 5%;
 }
