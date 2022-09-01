@@ -42,13 +42,16 @@ body{
 
 
 
-/* Header */
+
+/* 
+========== Header ==========
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
-  position: absolute;
+  position: fixed;
   left: -9999px;
 }
 .menu-icon:checked + label,
@@ -218,7 +221,7 @@ body{
 }
 .nav ul li a:hover{
   text-decoration: none;
-  color: #ffeba7;
+  color: #ffb4a7;
 }
 .nav ul li a:after{
   display: block;
@@ -277,6 +280,7 @@ body{
 	height: 26px;
 	width: auto;
 	display: block;
+  pointer-events: none;
 }
 
 
@@ -298,7 +302,9 @@ body{
 }
 
 
-/*Sticky header*/
+/* 
+========== Sticky Header ==========
+*/
 .header {
     padding: 10px 16px;
     background: rgb(255, 255, 255);
@@ -320,9 +326,11 @@ body{
 
 
 
-  /*Hero*/
+/* 
+========== Hero ==========
+*/
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/2119474.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://renaissanceronin.files.wordpress.com/2015/01/sustainable-city.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -426,7 +434,9 @@ body{
 
 
 
-/*Earth*/
+/* 
+========== Earth ==========
+*/
 /* .earth{
     position: absolute;
     top: 0;
@@ -448,7 +458,10 @@ body{
 } */
 
 
-/*Body*/
+
+/* 
+========== Body-1 ==========
+*/
 
 .b-1{
   height: 90vh;
@@ -537,7 +550,10 @@ span.r-icon:hover {
   100% { transform: translateY(0) rotate(0) }
 }
 
-/*SDG Card*/
+
+/* 
+========== SDG Repot Card ==========
+*/
 .box-3 .sdg-card{
   position: relative;
   width: 320px;
@@ -730,6 +746,11 @@ span.r-icon:hover {
   
 }
 
+
+/* 
+========== Body-2 ==========
+*/
+
 .desc-1{
   width: 100%;
   height: 60vh;
@@ -779,7 +800,9 @@ span.r-icon:hover {
 }
 
 
-/*Info Panel*/
+/* 
+========== Info Panel ==========
+*/
 .panel  {
   width: 0;
   position: fixed;
@@ -915,7 +938,9 @@ span.r-icon:hover {
 }
 
 
-/*body-3*/
+/* 
+========== Body-3 ==========
+*/
 .desc-2{
   height: auto;
   width: 100%;
@@ -973,14 +998,13 @@ span.r-icon:hover {
   height: 80vh;
   width: 100%;
   background-color: rgb(225, 214, 205);
-  text-align: center;
-  /* background-image: url(../imgs/line-content-group-pattern.png);
-  background-size: cover; */
-  
+  text-align: center;  
 }
 
 
-/*Slider*/
+/* 
+========== Slider ==========
+*/
 
 .slider {
   width: 35rem;
@@ -1046,7 +1070,6 @@ span.r-icon:hover {
 }
 .scroller:before { top: 49px; }
 .scroller:after { bottom: 49px; }
-/* If you want to cahnge the colors, make sure you change the fill in the svgs to match */
 .scroller-middle .scroller__thumb { border: 5px solid rgb(11, 1, 33); }
 .scroller-middle:before, .scroller-middle:after { background: rgb(11, 1, 33); }
 .scroller-top .scroller__thumb { border: 5px solid rgb(11, 1, 33); }
@@ -1054,7 +1077,9 @@ span.r-icon:hover {
 
 
 
-/*target*/
+/* 
+========== Target ==========
+*/
 .target-wrapper {
   margin:auto;
   max-width:2000px;
@@ -1220,7 +1245,9 @@ span.r-icon:hover {
 
 
 
-/*Solutions*/
+/* 
+========== Solutions ==========
+*/
 .solutions {
   display: flex;
   justify-content: center;
@@ -1337,7 +1364,9 @@ span.r-icon:hover {
 
 
 
-/*Chatbot*/
+/* 
+========== Basic Chatbot ==========
+*/
 #BotText{
 	color: #b5ffe1;
   display: none;
@@ -1403,7 +1432,9 @@ span.r-icon:hover {
 
 
 
-/*Cards*/
+/* 
+========== Smartcity Cards ==========
+*/
 .b4{
   background-color:  #e3edf7;
   margin-top: 0;
@@ -1527,6 +1558,7 @@ span.r-icon:hover {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding: 10rem;
 }
 
 
@@ -1540,16 +1572,185 @@ span.r-icon:hover {
 }
 
 
-.mohd{
-  z-index: -10; 
-  position:absolute;
-  transform: rotate(-10deg);
-  margin-top: -20px;
-  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+/* 
+========== Last Image Slider ==========
+*/
+.b5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.b5 .b5-c{
+  height: 85vh;
+  width: 50vw;
+  display: inline;
+}
+
+.c1{
+  background: url(../imgs/wl-balance.jpg);
+}
+
+.c2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  color: grey;
+  font-size: 8px;
+  padding-left: 4rem;
+}
+
+.img-1{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c2-h1:hover, .c2-h2:hover, .c2-h3:hover, .c2-h4:hover, .c2-h5:hover, .c2-h6:hover{
+  color: white;
+  cursor: default;
+  font-size: 18px;
+  transition: ease-in-out 0.3s;
 }
 
 
 
-#footer{
-  background-color: #232323;
+/* 
+========== Footer ==========
+*/
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 30px 50px;
+  color: #ebebeb;
+  background-color: rgb(26, 26, 26);
+  border-top: 1px solid #e5e5e5;
 }
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer address {
+  font-style: normal;
+  color: #999;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: #ebebeb;
+  border-radius: 100px;
+  color: #2f2f2f;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer__nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #999;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+  padding-top: 5rem;
+  padding-right: 3rem;
+}
+  
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: white;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: 1;
+  }
+  
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer__addr {
+    flex: 1 0px;
+  }
+  
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
+
+
+/* 
+============xx===========xxxx===========xx============
+*/

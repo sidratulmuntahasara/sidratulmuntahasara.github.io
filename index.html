@@ -16,8 +16,9 @@
 
 </head>
 <body>
-    <!--========== Header ==========-->
 
+
+    <!--========== Header ==========-->
     
     <a href="" class="logo" target="_blank">
 		<img src="./assets/imgs/main_logo.png" alt="" style="height: 3.5em;">
@@ -27,10 +28,10 @@
   	<label for="menu-icon"></label>
   	<nav class="nav"> 		
   		<ul class="pt-5">
-  			<li><a href="#">Work</a></li>
-  			<li><a href="#">Studio</a></li>
-  			<li><a href="#">News</a></li>
-  			<li><a href="#">Contact</a></li>
+  			<li><a href="">Home</a></li>
+  			<li><a href="#sdr">SDR Report</a></li>
+  			<li><a href="#sol">Solutions</a></li>
+  			<li><a href="#smcity">SmartCity</a></li>
   		</ul>
   	</nav>
 
@@ -47,24 +48,26 @@
                 <video src="./assets/imgs/Video.mp4" controls></video>
                 <h3 class="close">Close</h3>
             </div>
-            <button class="hero-btn">Go Deeper</button>
+            <a href="#sdr"><button class="hero-btn">Go Deeper</button></a>
         </div>
     </div>
 
 
     <div class="header" id="myHeader">
     <a href="" class="head-logo" target="_blank">
-		<img src="./assets/imgs/logo2.png" alt="" style="height: 3.5em;">
+    <img src="./assets/imgs/logo2.png" alt="" style="height: 3.5em;">
 	</a>
   </div>
-
-
     
     <!--=====xx===== Header =====xx=====-->
 
 
+
     <!--========== Main Body ==========-->
-    <div class="b-1">
+
+    <!--========== Body-1 ==========-->
+
+    <div class="b-1" id="sdr">
         <div class="gr-1 box-1">
             <h1 class="bh-1 ">
                 On 2022,
@@ -101,18 +104,31 @@
                     <span>↗</span>
                 </div>
                 <h3 class="text3">Challenges Remain</h3>
-                <a href="#">LEARN MORE</a>
+                <a href="#more">LEARN MORE</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <img src="./assets/imgs/pattern.png" class="pattern">
+    <!--=====xx===== Body-1 =====xx=====-->
+
+    
+
+    <!--========== Body-2 ==========-->
+
+    <img src="./assets/imgs/pattern.png" class="pattern" id="more">
     
     <div class="desc-1">
         <quote class="q1">With reference to SDG Goal 11, The Sustainable Development Report (SDR) showcased that challenges within UAE remained and required further developments to focus on building more better Sustainable cities and communities.</quote>
         <button class="rep-btn" onclick="openInfo()"><span>Read Reports</span></button>
+        <div id="sol"></div>
     </div>
+
+    <!--=====xx===== Body-2 =====xx=====-->
+
+
+
+    <!--========== Panel ==========-->
 
     <div id="report" class="panel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeInfo()">×</a>
@@ -132,7 +148,7 @@
         <h3 style="padding-left: 15px; padding-top: 1rem;"><b>Description</b></h3>
         <h3 class="pane-5">Make cities and human settlements inclusive, safe, resilient and sustainable.</h3>
         <h3 style="padding-left: 15px; padding-top: 1rem;"><b>Problems faced</b></h3>
-        <a class="prob"><div class="cont">
+        <a class="prob" href="#sol"><div class="cont">
             <img src="./assets/imgs/red.png" style="width: auto; height: 24px; margin-left: 1.5rem; margin-top: 1rem;">
             <h3 class="pane-4">Score moderately improving, insufficient to attain goal.<br>Major challenges remain.<br>Score stagnating or increasing at less than 50% of required rate.</h3>
         </div></a>
@@ -149,6 +165,11 @@
         <div style="height: 5rem;"></div>
     </div>
 
+    <!--=====xx===== Panel =====xx=====-->
+
+
+
+    <!--========== Body-3 ==========-->
 
     <div class="desc-2">
         <h1 class="bh-4">The DOT. Solution!</h1>
@@ -200,6 +221,7 @@
             </div>
             
             <div id="target-content-section">
+                <div></div>
                 <div class="section-content 11-1 active">
                     <h2>TARGET 11.1</h2>
                     <p>By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums</p>
@@ -253,7 +275,11 @@
             </div>
     </div>
 
+    <!--=====xx===== Body-3 =====xx=====-->
 
+
+
+    <!--========== Solutions ==========-->
 
     <div class="solutions">
         <div class="s-title">
@@ -261,7 +287,7 @@
         </div>
         <div id="s1" class="sec">
           <div class="content">
-            <p class="head">Using the <br>shortest route</p>
+            <p class="head">Using the <br>smartest route</p>
             <div class="cont-div">
                 <p class="desc">Anywhere and everywhere you go, it's always best preferred to take the most fuel-efficient and shortest route to your destination.
                     Choosing a non-traffic route which is less time-consuming is not only beneficial for the user, but also helps maintain environmental friendly needs. 
@@ -278,7 +304,7 @@
                 <p class="desc">
                     Usage of electric cars should be promoted more. Governments should take the initiative to make electric cars accessible to all by taking down taxes on vehicles and making it cheaper with environmental friendly solutions. Initiatives should be taken to make UAE roads more sustainably developed. Better sustainable roads will help in rapid decrease of the amount of Carbon emmissions. 
                 </p>
-                <img src="https://media3.giphy.com/media/IaVWq3MSU6EMsVCTkz/giphy.gif" style="width: 75%; padding-top: 3rem; border-radius: 50%;">
+                <img src="https://media3.giphy.com/media/IaVWq3MSU6EMsVCTkz/giphy.gif" style="width: 75%; padding-top: 3rem; border-radius: 50%; pointer-events: none;">
             </div>
           </div>
           <div class="overlay"></div>
@@ -311,7 +337,7 @@
                     <br>How can we achieve that 30% energy efficiency target?<br>
                     The path to reducing emissions by improving building energy efficiency can be paved with the framework of sense, act, and scale. We need to sense to ascertain efficiency gaps within buildings. We need solutions that act on the information to achieve energy savings. And finally, we need to scale solutions so they get implemented broadly. Here is how this proposed framework can help us achieve our goals.
                 </p>
-                <img src="https://assets.amazon.science/dims4/default/231f004/2147483647/strip/true/crop/600x338+0+0/resize/2880x1620!/format/webp/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2F5f%2F4e%2Fe6ff52b443778de432c9e8677491%2Famazonscience-senseactscale-v2-compressed.gif" style="width: 100%; padding-top: 1.5rem;">
+                <img src="https://assets.amazon.science/dims4/default/231f004/2147483647/strip/true/crop/600x338+0+0/resize/2880x1620!/format/webp/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2F5f%2F4e%2Fe6ff52b443778de432c9e8677491%2Famazonscience-senseactscale-v2-compressed.gif" style="width: 100%; padding-top: 1.5rem;pointer-events: none;">
               </div>
             </div>
             <div class="overlay"></div>
@@ -319,9 +345,14 @@
         
       </div>
 
+    <!--=====xx===== Solutions =====xx=====-->
+
+
+
+    <!--========== SmartCity ==========-->
 
       <center>
-        <div  class="img-sc">
+        <div  class="img-sc" id="smcity">
             <div class="sc">
         </div>  
     </center>
@@ -389,46 +420,102 @@
         </div>
         </center>
 
+    <!--=====xx===== SmartCity =====xx=====-->
 
-        <img src="./assets/imgs/mohd.jpg" class="mohd">
+
+
+    <!--========== Body-4 ==========-->
+
         <div class="desc-4">
             <quote class="q2">❝ We are building a new reality for our people, <br>a new future for our children, and a new model of development. ❞</quote><br>
             <p>~ H.H. Sheikh Mohammed Bin Rashid Al Maktoum<br>Vice President and Prime-Minister of the UAE and Ruler of Dubai</p>
         </div>
 
-        <!-- <div>
-            <footer>
-                <p>Author: Hege Refsnes</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-            </footer>
-        </div> -->
+    <!--=====xx===== Body-4 =====xx=====-->
+
+
+
+    <!--========== Last Image SLider ==========-->
+
+        <div class="b5">
+            <div class="b5-c c1">
+                <img id="img" src="" class="img-1" style="pointer-events: none;">
+            </div>
+            <div class="b5-c c2">
+                <h1 style="text-transform: uppercase; color: rgb(252, 191, 184); font-size: 20px; font-weight: light; letter-spacing: 1px; padding-top: 3rem;">Bring Value to the World Through</h1>
+                <h1 class="c2-h1" id="c2-h1" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Work-life Balance</h1>
+                <h1 class="c2-h2" id="c2-h2" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Legacy-free Urbanism</h1>
+                <h1 class="c2-h3" id="c2-h3" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Enhanced livability</h1>
+                <h1 class="c2-h4" id="c2-h4" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Leisure and sports</h1>
+                <h1 class="c2-h5" id="c2-h5" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Next-gen architecture</h1>
+                <h1 class="c2-h6" id="c2-h6" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Environmental Solutions</h1>
+            </div>
+        </div>
+
+    <!--=====xx===== Last Image Slider =====xx=====-->
+        
+
+
+    <!--========== Footer ==========-->
+
+        <footer class="footer">
+            <div class="footer__addr">
+		        <img src="./assets/imgs/main_logo.png" alt="" style="height: 3.5em;">
+            </div>
+            
+            <ul class="footer__nav">
+              <li class="nav__item">
+                <h2 class="nav__title"><br>Scroll-to Contents</h2>
+          
+                <ul class="nav__ul">
+                  <li>
+                    <a href="">Home</a>
+                  </li>
+          
+                  <li>
+                    <a href="#sdr">Report</a>
+                  </li>
+                      
+                  <li>
+                    <a href="#sol">About</a>
+                  </li>
+
+                  <li>
+                    <a href="#smcity">Smart Solutions</a>
+                  </li>
+                </ul>
+              </li>
+              
+
+              <li class="nav__item nav__item--extra">
+                <h2 class="nav__title" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style:italic; font-size: medium;"><br>❝ Big Problems are best solved in small pieces. ❞</h2><br>
+
+                <div class="footer__addr" style="background-color: rgb(40, 40, 40); width:fit-content; padding: 1rem; border-radius: 10px;">
+                      
+                  <h2>Contact</h2>
+                  
+                  <address>
+                    4936 The DOT Inc., UAE 971-1234567<br>
+                        
+                    <a class="footer__btn" href="mailto:sidratul.s@outlook.com">Email Us</a>
+                  </address>
+                </div>
+              </li>
+
+            </ul>
+            
+            <div class="legal">
+              <p>&copy; 2022 The DOT. All rights reserved.</p>
+              
+              <div class="legal__links">
+                <span>Made by <span class="heart">♥</span> Sidratul Muntaha Sara</span>
+              </div>
+            </div>
+          </footer>
       
-    
+    <!--=====xx===== Footer =====xx=====-->
 
-    
-
-    <!-- Less Time, More Solutions, Decrease in Problems, Area of dot Increases. More Time, Less Solution, Increase in Problems, Area of dot Decreases. -->
-    <!-- <div class="earth"></div> -->
     <!--=====xx===== Main Body =====xx=====-->
 
-    <!--========== Hero Section ==========-->
-    
-    <!--=====xx===== Hero Section =====xx=====-->
-
-
-
-    
-
-    <!--========== Separator ==========-->
-    <div class="separator"></div>
-    <!--=====xx===== Separator =====xx=====-->
-
-
-
-
-
-
-
-    
 </body>
 </html>
