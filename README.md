@@ -1,7 +1,7 @@
 # Digifest-22
 
 <h1>The DOT.</h1>
-![main_logo](https://user-images.githubusercontent.com/86942363/188173662-5f5a2bfc-3e58-4bc9-bb81-27f90d595420.png)
+![The DOT](https://user-images.githubusercontent.com/86942363/188174842-ac2d0cc2-d3cc-484d-9d6b-3f6f96a009e1.png)
 
 
 <h1>What is the DOT?</h1>
