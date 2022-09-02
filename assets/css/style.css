@@ -1252,7 +1252,7 @@ span.r-icon:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 130vh;
+  height: 160vh;
 }
 
 .sec {
@@ -1267,6 +1267,7 @@ span.r-icon:hover {
   color: #fff;
   transition: flex .4s ease;
   position: relative;
+  /* width: 50vw; */
 }
 
 .sec .head{
@@ -1335,7 +1336,6 @@ span.r-icon:hover {
   padding-left: 2rem;
   padding-bottom: 5rem;
   padding-top: 2rem;
-  border: 2px solid red;
 }
 
 .sec:hover {
@@ -1417,7 +1417,7 @@ span.r-icon:hover {
 }
 
 .know-info{
-  width: 500px;
+  width: 400px;
   height: min-content;
   display: none;
   background-color: rgb(255, 255, 255);
