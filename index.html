@@ -8,12 +8,14 @@
 
     <!--========= CSS Files =========-->
     <link rel="stylesheet" href="./assets/css/style.css"> <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!--========= JS Files =========-->
     <script src="./assets/js/main.js" defer></script> <!-- Main JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
+    
 </head>
 <body>
 
@@ -38,8 +40,10 @@
 
     <div class="hero-image">
         <div class="hero-text">
-            <div class="section-center">
-                <h1 class="ht-1">The DOT.</h1>
+            <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+                <div class="section-center">
+                    <h1 class="ht-1">The DOT.</h1>
+                </div>
             </div>
             <button class="play-btn" style="width: 60px; 
             height:60px; border-radius: 50%; background-color: whitesmoke; border: 5px solid transparent; 
@@ -69,26 +73,37 @@
 
     <div class="b-1" id="sdr">
         <div class="gr-1 box-1">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
             <h1 class="bh-1 ">
                 On 2022,
             </h1>
-            <h1 class="bh-2">
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="800">
+                <h1 class="bh-2">
                 SDR report of
-            </h1>
-            <h1 class="bh-3">
+                </h1>
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="900">
+                <h1 class="bh-3">
                 UAE
-            </h1>
-            <h1 class="bh-2">
-                showed the following:
-            </h1>
+                </h1>
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                <h1 class="bh-2">
+                    showed the following:
+                </h1>
+            </div>
         </div>
         <div class="gr-1 box-2">
             <span class="r-icon">
+            <div data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
                 <img src="./assets/imgs/right.png" style="height: 15rem;">
+            </div>
             </span>
         </div>
         <div class="gr-1 box-3">
-            <div class="sdg-card">
+            <div data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-duration="700" data-aos-easing="ease-in-out">
+                <div class="sdg-card">
                 <div class="imgBx">
                 <img src="https://ucarecdn.com/27a39c40-eecc-4925-bcaf-9b33450c3e53/-/format/auto/-/preview/3000x3000/-/quality/lighter/">
                 </div>
@@ -106,6 +121,7 @@
                 <h3 class="text3">Challenges Remain</h3>
                 <a href="#more">LEARN MORE</a>
                 </div>
+                </div>
             </div>
         </div>
     </div>
@@ -119,8 +135,14 @@
     <img src="./assets/imgs/pattern.png" class="pattern" id="more">
     
     <div class="desc-1">
-        <quote class="q1">With reference to SDG Goal 11, The Sustainable Development Report (SDR) showcased that challenges within UAE remained and required further developments to focus on building more better Sustainable cities and communities.</quote>
-        <button class="rep-btn" onclick="openInfo()"><span>Read Reports</span></button>
+        <quote class="q1">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+            With reference to SDG Goal 11, The Sustainable Development Report (SDR) showcased that challenges within UAE remained and required further developments to focus on building more better Sustainable cities and communities.
+        </div>
+        </quote>
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <button class="rep-btn" onclick="openInfo()"><span>Read Reports</span></button>
+        </div>
         <div id="sol"></div>
     </div>
 
@@ -172,16 +194,22 @@
     <!--========== Body-3 ==========-->
 
     <div class="desc-2">
-        <h1 class="bh-4">The DOT. Solution!</h1>
+        <h1 class="bh-4">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+            The DOT. Solution!</div></h1>
         <div class="b">
             <div class="b1">
-                <h3 class="b1-h3"><b>The DOT.</b> helps remove the small portion of problem that accounts to causing much bigger issues in the world. The belief goes by working together on eliminating this dot-sized problem, which in return will help UAE rise much higher at a Global rank and make it a much better, sustainable place.<br>
+                <h3 class="b1-h3">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700" data-aos-easing="ease-in-out">
+                    <b>The DOT.</b> helps remove the small portion of problem that accounts to causing much bigger issues in the world. The belief goes by working together on eliminating this dot-sized problem, which in return will help UAE rise much higher at a Global rank and make it a much better, sustainable place.<br>
                 The problem lies in not "What the problem is", but instead on, "How can the problem be achieved successfully at short period of time". The DOT believes in solving problems with less time-consumption.
                 <br>To eliminate this small ratio of chaos so as to UAE being able successfully achieve the SDG 11, Sustainable Cities and Communities, the country will have to give its focus to the Goal 11 targets.
+                </div>
                 </h3>
             </div>
             <div class="b2">
-                <div class="slider">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="slider">
                     <div class="bottom">
                       <img src="./assets/imgs/Without.png" draggable="false" style="height: 25rem; width: 35rem;"/>
                     </div>
@@ -198,10 +226,15 @@
                       <svg class="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="0 50 37 68 37 32 0 50" style="fill:salmon"/><polygon points="100 50 64 32 64 68 100 50" style="fill:salmon"/></svg>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
+
+
+        
+        <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
         <div class="target-wrapper">
-            <div id="target-bar-container">
+                <div id="target-bar-container">
                 <ul>
                     <li class="step step01 active"><div class="step-inner">11.1</div></li>
                     <li class="step step02"><div class="step-inner">11.2</div></li>
@@ -218,6 +251,7 @@
                 <div id="line">
                     <div id="line-progress"></div>
                 </div>
+            </div>
             </div>
             
             <div id="target-content-section">
@@ -280,7 +314,7 @@
 
 
     <!--========== Solutions ==========-->
-
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
     <div class="solutions">
         <div class="s-title">
             <h1>Smart Solutions for Sustainable Living</h1>
@@ -342,7 +376,7 @@
             </div>
             <div class="overlay"></div>
         </div>
-        
+        </div>
       </div>
 
     <!--=====xx===== Solutions =====xx=====-->
@@ -361,12 +395,13 @@
     <div class="b4">
 
         <h1 style="margin-top: 3rem; margin-bottom: 3rem; color:rgb(32, 15, 59); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic;">
-            
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-easing="ease-in-out">
             The 5 Essential Elements in Development of SmartCity
-            
+        </div>
         </h1>
         
         <div class="cards">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-delay="5" data-aos-easing="ease-in-out">
             <div class="card">
             <div class="box">
                 <div class="content">
@@ -375,18 +410,20 @@
                 <p>“SMART Governance” is about the future of the public services, SMART Governance utilize technology such as business application to facilitate and support better planning, decision and even the monitoring,  it will also improving governance transparency to transform the way public services are delivered.</p>
                 
                 </div>
+            </div></div>
             </div>
-            </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="10" data-aos-easing="ease-in-out">
             <div class="card">
             <div class="box">
                 <div class="content">
                 <h2>02</h2>
                 <h3>Smart Living</h3>
                 <p>Smart Living is about providing opportunities to improve the quality of its citizens’ lives by guaranteeing a sustainable social including healthcare education and safety.</p>
-                
+                </div>
                 </div>
             </div>
             </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1200" data-aos-delay="15" data-aos-easing="ease-in-out">
             <div class="card">
             <div class="box">
                 <div class="content">
@@ -397,23 +434,26 @@
                 </div>
             </div>
             </div>
+            </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-delay="10" data-aos-easing="ease-in-out">
             <div class="card">
             <div class="box">
                 <div class="content">
                 <h2>04</h2>
                 <h3>Smart People</h3>
                 <p>Smart city is all about synergies between technology and its citizen, without smart people the development of smart cities will not progressing effectively, the smart citizen/people is needed as the main driving force behind digital economic that will produce a radical change in economic future.</p>
-                
+                </div>
                 </div>
             </div>
             </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="15" data-aos-easing="ease-in-out">
             <div class="card">
             <div class="box">
                 <div class="content">
                 <h2>05</h2>
                 <h3>Smart Environment</h3>
                 <p>Ensuring liveable conditions within the cities is also an important matters in developing smart cities, the concept of smart city is the use of technology to improve sustainability and better manage natural resources.</p>
-                
+                </div>
                 </div>
             </div>
             </div>
@@ -427,8 +467,12 @@
     <!--========== Body-4 ==========-->
 
         <div class="desc-4">
-            <quote class="q2">❝ We are building a new reality for our people, <br>a new future for our children, and a new model of development. ❞</quote><br>
-            <p>~ H.H. Sheikh Mohammed Bin Rashid Al Maktoum<br>Vice President and Prime-Minister of the UAE and Ruler of Dubai</p>
+            <quote class="q2">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+                ❝ We are building a new reality for our people, <br>a new future for our children, and a new model of development. ❞</div></quote><br>
+            <p>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+                ~ H.H. Sheikh Mohammed Bin Rashid Al Maktoum<br>Vice President and Prime-Minister of the UAE and Ruler of Dubai </div></p>
         </div>
 
     <!--=====xx===== Body-4 =====xx=====-->
@@ -443,12 +487,24 @@
             </div>
             <div class="b5-c c2">
                 <h1 style="text-transform: uppercase; color: rgb(252, 191, 184); font-size: 20px; font-weight: light; letter-spacing: 1px; padding-top: 3rem;">Bring Value to the World Through</h1>
-                <h1 class="c2-h1" id="c2-h1" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Work-life Balance</h1>
-                <h1 class="c2-h2" id="c2-h2" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Legacy-free Urbanism</h1>
-                <h1 class="c2-h3" id="c2-h3" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Enhanced livability</h1>
-                <h1 class="c2-h4" id="c2-h4" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Leisure and sports</h1>
-                <h1 class="c2-h5" id="c2-h5" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Next-gen architecture</h1>
-                <h1 class="c2-h6" id="c2-h6" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">Environmental Solutions</h1>
+                <h1 class="c2-h1" id="c2-h1" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    Work-life Balance</h1>
+                <h1 class="c2-h2" id="c2-h2" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    Legacy-free Urbanism</h1>
+                <h1 class="c2-h3" id="c2-h3" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    Enhanced livability</h1>
+                <h1 class="c2-h4" id="c2-h4" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    Leisure and sports</h1>
+                <h1 class="c2-h5" id="c2-h5" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    Next-gen architecture</h1>
+                <h1 class="c2-h6" id="c2-h6" style="font-weight: lighter; letter-spacing: 1px; padding-top: 3rem;">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    Environmental Solutions</h1>
             </div>
         </div>
 
@@ -458,6 +514,7 @@
 
     <!--========== Footer ==========-->
 
+    
         <footer class="footer">
             <div class="footer__addr">
 		        <img src="./assets/imgs/main_logo.png" alt="" style="height: 3.5em;">
@@ -514,6 +571,29 @@
           </footer>
       
     <!--=====xx===== Footer =====xx=====-->
+
+
+    <!--Cursor-->
+    <div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2">					
+	<div class="progress-wrap">
+		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+		</svg>
+	</div>
+    </div>
+	<div class='cursor3' id="cursor3"></div>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!--=====xx===== Main Body =====xx=====-->
 
