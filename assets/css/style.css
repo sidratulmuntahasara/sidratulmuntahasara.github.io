@@ -1335,6 +1335,7 @@ span.r-icon:hover {
   padding-left: 2rem;
   padding-bottom: 5rem;
   padding-top: 2rem;
+  border: 2px solid red;
 }
 
 .sec:hover {
