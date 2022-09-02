@@ -309,8 +309,9 @@ document.getElementById('c2-h6').addEventListener('mouseover',setURL('../assets/
 
 
 
-	//Page cursors
-
+/*
+  Page Cursor with Scroll Indicator
+*/
   document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
     t.style.left = n.clientX + "px", 
 t.style.top = n.clientY + "px", 
@@ -339,7 +340,6 @@ function o(t) {
 $(document).ready(function(){"use strict";
 
 //Scroll indicator
-
 var progressPath = document.querySelector('.progress-wrap path');
 var pathLength = progressPath.getTotalLength();
 progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
@@ -360,3 +360,7 @@ $(window).scroll(updateProgress);
 });
 
 (jQuery); 
+
+
+
+/* ---- =========================================================== ---- */

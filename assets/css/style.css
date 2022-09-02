@@ -1756,8 +1756,9 @@ span.r-icon:hover {
 
 
 
-/* #Progress
-================================================== */
+/* 
+========== Indicator ==========
+*/
 
 .progress-wrap {
 	height: 46px;
@@ -1781,8 +1782,9 @@ span.r-icon:hover {
     transition: all 0.5ms linear;
 }
 
-/* #Cursor
-================================================== */
+/* 
+========== Cursor ==========
+*/
 
 .cursor,
 .cursor2,
@@ -1826,10 +1828,6 @@ span.r-icon:hover {
 .cursor2.hover .progress-wrap svg.progress-circle path {
 	opacity: 0.4;
 }
-
-
-
-
 
 
 
